@@ -20,12 +20,13 @@
 ##############################################################################
 
 {
-    'name': 'Cancel reason',
+    'name': 'Calendar event',
     'version': '0.1',
     'category': '',
     'description': """
-Base mapping
-============
+Calendar event
+==============
+Extends the functionality of the calendar event module.
 This modules makes it possible to give a reason for cancellation of a meeting.
 """,
     'author': 'Vertel AB',
@@ -33,7 +34,7 @@ This modules makes it possible to give a reason for cancellation of a meeting.
     'website': 'http://www.vertel.se',
     'depends': ['calendar',],
     'data': [
-			 'views/calendar_event.xml',
+			 'views/calendar_event_view.xml',
         ],
     'application': False,
     'installable': True,
